@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;padding: 0;
+	box-sizing: border-box;
+	outline: none; border: none;
+	text-decoration: none;
+}
+
+#logout{
+    text-decoration:none;
+}
+
+.form-container{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	padding-bottom: 60px;
+	background: #eee;
+}
+.form-container form{
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 5px 10px rgba(0,0,0,.1);
+	background: rgb(237, 229, 238);
+	width:  500px;
+}
+.form-container form .form-btn{
+	background: rgb(111, 88, 141);
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+    padding:3px;
+    border-radius: 5px;
+}
+.form-container form #form-btn-reset{
+    background:none;
+	color: rgb(49, 49, 86);
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+	opacity:.7;
+}
+
+#form-btn-reset{
+    float: right;
+}
+#form-btn-register{
+    float:right;
+}
+
+#h2-login{
+    text-align: center;
+}
+
+form{
+  border: 1px solid #ccc;
+}
+
+.form-container form input{
+    background: #fff;
+	padding:  3px 5px;
+	font-size: 12px;
+	margin: 2px 0;
+	border-radius: 5px;
+}
+#admin-login{
+	text-align: center;
+}
+
+#h1-admin{
+    text-align: center;
+    color:rgb(77, 111, 149);
+}
+#reject1{
+   color:crimson;
+
+}
+#reject2{
+    color:crimson;
+}
+#reject3{
+    color:crimson;
+}
+
+button{
+    outline:0;
+}
+
+#search{
+	text-decoration:none;
+	border: none;
+}
+
+#excel-export{
+	text-align: center;
+	display:flex;
+}
+
+#someinput, #someinput1{
+	border-radius:7;
+	border:1px solid gray;
+	padding:8px;
+}
+#panel, #flip {
+	padding: 7px;
+	background-color: #e5eecc;
+	border: solid 1px #c3c3c3;
+  }
+  
+  #panel {
+	padding: 20px;
+	display: none;
+  }
+  select{
+  overflow:auto;
+  border-radius:5px;
+  padding:9px;
+  }
+  #someinput, #someinput1{
+	  border-radius:7px;
+	  border:1px solid gray;
+	  padding:6px;
+	background:#eee;
+  }
+  .addAll, .removeAll{
+  background:none;
+  color:rgb(50,80,250);
+  border:none;
+  cursor:pointer;
+  }
+
+  #shtoUser{
+	color: crimson;
+	padding:10px;
+	font-size: 40px;
+	text-align:center;
+	background:#fff;
+	margin-left:10px;
+	border-radius: 7px;
+	padding-left:20px;
+	padding-right: 20px;
+	border: 2px solid crimson;
+	cursor:pointer;
+  }
